@@ -1,0 +1,404 @@
+
+html {
+}
+
+body {
+  font-family: Roboto Slab;
+  background: black;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* NAVBAR */
+.navigation {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  padding-top: 0px;
+  padding-right: 75px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 2px 0px   #000000;
+  -moz-box-shadow: 0px 0px 2px 0px       #000000;
+  box-shadow: 0px 0px 2px 0px #000000;
+  background-color: rgba(1, 1, 1,       0.7);
+  color: rgba(1, 1, 1, 0.7);
+}
+
+.navigation a {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navigation ul
+{
+    margin-top: 12px;
+}
+
+.navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation li:before {
+  content: " | ";
+  color: #fff;
+}
+
+
+
+.navigation li a:hover {
+  color: #00FFFF;
+  font-weight: 600;
+}
+
+/* HEADER DIV */
+#header {
+  text-align: center;
+
+}
+
+#bienvenue h1 {
+  font-family: 'Akronim', cursive;
+  font-size: 120px;;
+}
+
+#bienvenue h1:hover {
+  color: #00FFFF;
+font-weight: 600;
+}
+
+
+#bienvenue h4:hover {
+  color: #00FFFF;
+  font-weight: 600;
+}
+
+#bienvenue {
+  margin-top: 12%;
+  position: absolute;
+  /*top: 50%;*/
+  left: 59%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+#header a {
+  font-size: 45px;
+  color: #fff;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#header a:hover {
+  font-size: 50px;
+}
+
+
+
+#contenant {
+    font-family: Roboto Slab;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: center;
+    background: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+
+}
+
+
+#apropos {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  background: black;
+  color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+
+
+#portfolio {
+  background: #f5f5f5;
+  color: #55606A;
+  /*width: 100%;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  width: 100%;*/
+}
+
+#portfolio img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#portfolio img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#portfolio a, #footer a  {
+  text-decoration: none;
+}
+
+.modal {
+background-image: url("http://wallpaper-gallery.net/images/wallpaper-simple/wallpaper-simple-21.jpg");
+background-position: center;
+}
+
+section#contact {
+    background-color: #222222;
+    background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+.gellary_bg_none img{
+	width: 100%;
+	height: 250px;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+
+
+/*#contact {
+  margin-top: 5px;
+  margin-bottom: 100px;
+  background: black;
+  color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+}*/
+
+
+/*#portfolio img {
+  width: 50%;
+  min-width: 200px;
+  max-width: 400px;
+}*/
+
+
+/* FOOTER DIV */
+#footer {
+  background: #ffffff;
+  color: #55606A;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, {
+  font-family: Roboto Slab;
+  margin-bottom: 14px
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Oswald;
+  letter-spacing: 3px;
+  line-height: 80px;
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 29px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+.logo:hover {
+  color: #00FFFF;
+}
+
+
+.logo {
+  color: #ffffff;
+  padding-top: 8px;
+  padding-left: 75px;
+  font-size: 25px;
+  line-height: 18px;
+}
+
+.logo a {
+  color: #ffffff;
+  padding-left: 75px;
+  font-size: 25px;
+  line-height: 18px;
+}
+
+.sublogo {
+  color: #ffffff;
+  padding-left: 75px;
+  font-size: 11px;
+  font-weight: 100;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+.btn-circle:hover {
+  background: #00FFFF;
+}
+
+
+.img-round {
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+
+.icon-btn {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 30px;
+  text-indent: 30px;
+}
+
+a {
+  color: #55606A;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:30px;
+    }
+}
