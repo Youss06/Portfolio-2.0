@@ -54,6 +54,9 @@ body {
   color: #fff;
 }
 
+button:hover {
+  color: #00FFFF;
+}
 
 
 .navigation li a:hover {
